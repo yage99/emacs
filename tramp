@@ -1,0 +1,30 @@
+;; -*- emacs-lisp -*- <16/06/12 16:53:33 /Users/zhangya/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["ssh" "zhangya" "hi.ustc.edu.cn#2222" nil nil]
+  ("locale" "LC_ALL=en_US.utf8")
+  ("uname" "Linux 3.16.0-4-amd64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("~" "/home/zhangya")
+  ("file-exists" "test -e")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 1004)
+  ("readlink" "\\readlink")
+  ("gid-string" "labuser")
+  ("tmpdir" "/ssh:zhangya@hi.ustc.edu.cn#2222:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")
+  ("uid-integer" 1008)
+  ("git" "\\git"))
+ (["ssh" "zhangya" "hi.ustc.edu.cn" nil nil]
+  nil))
