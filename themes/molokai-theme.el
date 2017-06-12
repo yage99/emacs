@@ -37,6 +37,7 @@
       (molokai-fg             "#f8f8f0")
       (molokai-red            "#ff0000")
       (molokai-pink           "#f92672")
+      (molokai-darkblue       "#085150")
       (molokai-orange+5       "#ef5939")
       (molokai-orange         "#fd971f")
       (molokai-yellow         "#ffff00")
@@ -99,7 +100,7 @@
 
    ;; mode line
    `(mode-line ((t (:foreground ,molokai-fg
-                                :background ,molokai-base03
+                                :background ,molokai-darkblue
                                 :box nil))))
    `(mode-line-buffer-id ((t (:weight bold))))
    `(mode-line-inactive ((t (:foreground ,molokai-fg

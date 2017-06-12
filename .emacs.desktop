@@ -1,0 +1,79 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Jun 12 19:37:11 2017
+;; Desktop file format version 208
+;; Emacs version 25.2.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22846 31975 725772 0) (desktop . "208") "zhangya@yas-MacBook-Pro" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#f8f8f0") (cursor-color . "#f8f8f0") (background-color . "#0c0c0c") (vertical-scroll-bars) (font . "tty") (height . 64) (width . 272) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "B73F-E9E8-3E2E-3026") (frameset--mini t) (minibuffer . t)) ((min-height . 12) (min-width . 30) (min-height-ignore . 6) (min-width-ignore . 13) (min-height-safe . 3) (min-width-safe . 6) (min-pixel-height . 12) (min-pixel-width . 30) (min-pixel-height-ignore . 6) (min-pixel-width-ignore . 13) (min-pixel-height-safe . 3) (min-pixel-width-safe . 6)) hc (pixel-width . 272) (pixel-height . 63) (total-width . 272) (total-height . 63) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 101) (pixel-height . 63) (total-width . 101) (total-height . 63) (normal-height . 1.0) (normal-width . 0.37132352941176466) (buffer "init.el" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 3) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 3092) (start . 1884))) (leaf (pixel-width . 91) (pixel-height . 63) (total-width . 91) (total-height . 63) (normal-height . 1.0) (normal-width . 0.33455882352941174) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 3) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 3090) (start . 1884))) (vc (last . t) (pixel-width . 80) (pixel-height . 63) (total-width . 80) (total-height . 63) (normal-height . 1.0) (normal-width . 0.29411764705882354) (combination-limit) (leaf (pixel-width . 80) (pixel-height . 16) (total-width . 80) (total-height . 16) (normal-height . 0.25) (normal-width . 1.0) (buffer "*ansi-term*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 2) (start . 2))) (leaf (pixel-width . 80) (pixel-height . 16) (total-width . 80) (total-height . 16) (normal-height . 0.25) (normal-width . 1.0) (buffer "*Messages*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 1) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 440) (start . 1))) (leaf (last . t) (pixel-width . 80) (pixel-height . 31) (total-width . 80) (total-height . 31) (normal-height . 0.5) (normal-width . 1.0) (buffer "git-cmd" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 11) (start . 1))))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("delete-other-windows" "delete-other" "mode-line"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("" "~/.emacs.d/init.el" "/etc/paths" "~/.emacs.d/themes/molokai-theme.el" "~/.emacs.d/init.el" "~/.emacs.d/themes/molokai-theme.el" "~/.emacs.d/init.el" "~/.emacs.d/" "~/.emacs.d/init.el" "~/.emacs.d/" "~/Projects/itk_vtk_learning/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/zhangya/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode linum-mode)
+  3090
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(linum-mode)
+  237
+  '(nil nil)
+  t
+  '("/Users/zhangya/.emacs.d/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/zhangya/.emacs.d/themes/molokai-theme.el"
+  "molokai-theme.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode linum-mode)
+  2275
+  '(2654 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (2642 2654 1865 1865 2398 2275))))
+
+(desktop-create-buffer 208
+  "/Users/zhangya/Projects/itk_vtk_learning/Compile.md"
+  "Compile.md"
+  'markdown-mode
+  '(linum-mode)
+  983
+  '(1623 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (984 1970 2165 1953 1319 1692))))
+
+(desktop-create-buffer 208
+  "/usr/local/Cellar/emacs/25.2/share/emacs/25.2/lisp/loaddefs.el"
+  "loaddefs.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode linum-mode)
+  288704
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
